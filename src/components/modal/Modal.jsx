@@ -1,10 +1,10 @@
 import { useSelector, useDispatch } from "react-redux";
-import { CLOSE_MODAL } from "../../reducer";
+import { CLOSE_MODAL } from "../../reducer/modal";
 import { ModalWrapper } from "./Modal.style";
 
 const Modal = ({ title, content }) => {
   const dispatch = useDispatch();
-  const isShow = useSelector((state) => state.isShow);
+  const isShow = useSelector((state) => state.modal.isShow);
   
   const onClose = () => {
     dispatch({ type: CLOSE_MODAL });

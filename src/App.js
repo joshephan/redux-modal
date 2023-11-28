@@ -1,5 +1,5 @@
 import Modal from "./components/modal/Modal";
-import OpenModalButton from "./components/OpenModalButton";
+import OpenModalButton from "./components/button/OpenModalButton";
 
 function App() {
   return (

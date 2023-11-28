@@ -6,7 +6,7 @@ const initialState = {
   isShow: false,
 };
 
-const rootReducer = (state = initialState, action) => {
+const modalReducer = (state = initialState, action) => {
   switch (action.type) {
     case TOGGLE_MODAL:
       return {
@@ -28,4 +28,4 @@ const rootReducer = (state = initialState, action) => {
   }
 };
 
-export default rootReducer;
+export default modalReducer;

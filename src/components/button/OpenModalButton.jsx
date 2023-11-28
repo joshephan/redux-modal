@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { OPEN_MODAL } from "../../reducer";
+import { OPEN_MODAL } from "../../reducer/modal";
 
 const OpenModalButton = () => {
   const dispatch = useDispatch();
