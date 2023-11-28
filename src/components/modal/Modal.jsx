@@ -5,6 +5,7 @@ import { ModalWrapper } from "./Modal.style";
 const Modal = ({ title, content }) => {
   const dispatch = useDispatch();
   const isShow = useSelector((state) => state.isShow);
+  
   const onClose = () => {
     dispatch({ type: CLOSE_MODAL });
   };
